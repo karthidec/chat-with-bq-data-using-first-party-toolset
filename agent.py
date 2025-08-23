@@ -11,9 +11,9 @@ AGENT_NAME = "bigquery_agent"
 GEMINI_MODEL = "gemini-2.0-flash"
 
 vertexai.init(
-    project="gen-lang-client-0707433693",
+    project="gen-xxx-7433693",
     location="us-central1",
-    staging_bucket="gs://agent-bucket-07312025",
+    staging_bucket="gs://agent-xxxx-12025",
 )
 
 # Define a tool configuration to block any write operations
